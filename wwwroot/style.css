@@ -1,0 +1,38 @@
+﻿body{
+    background-color: lightslategrey;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.login-area{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(79, 95, 110);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 0 0 20px 0;
+
+    color: rgb(225, 225, 225);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input {
+    padding: 6px;
+    border: none;
+    border-radius: 4px;
+}
